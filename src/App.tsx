@@ -17,6 +17,7 @@ import AIEstimator from "./components/AIEstimator";
 import BlogHub from "./components/BlogHub";
 import ClientArea from "./components/ClientArea";
 import AdminDashboard from "./components/AdminDashboard";
+import { RRProLogo } from "./components/RRProLogo";
 
 // Lucide icons
 import {
@@ -1049,7 +1050,10 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 border-b border-slate-800 pb-8">
             
             <div className="space-y-3">
-              <span className="font-display font-bold text-white text-base">RRPRO Digital Solution</span>
+              <div className="flex items-center gap-2.5">
+                <RRProLogo className="h-8 w-8 flex-shrink-0" theme="dark" />
+                <span className="font-display font-bold text-white text-base">RRPRO Digital Solution</span>
+              </div>
               <p className="text-[11px] leading-relaxed font-normal text-slate-400">
                 Penyedia layanan kustomisasi website, aplikasi mobile, sistem ERP/CRM, &amp; otomasi AI terbaik dan terjangkau di Indonesia.
               </p>

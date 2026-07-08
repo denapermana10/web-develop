@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Menu, X, Laptop, UserCheck, ShieldAlert, Lock, AlertCircle } from "lucide-react";
 import { User } from "../types";
+import { RRProLogo } from "./RRProLogo";
 
 interface NavbarProps {
   activeTab: string;
@@ -97,10 +98,8 @@ export default function Navbar({ activeTab, setActiveTab, currentUser, setCurren
         <div className="flex items-center justify-between h-16">
           
           {/* Logo */}
-          <div className="flex items-center gap-2 cursor-pointer" onClick={() => setActiveTab("home")}>
-            <div className="h-10 w-10 rounded-xl bg-gradient-to-tr from-cyan-600 to-indigo-600 flex items-center justify-center shadow-md">
-              <Laptop className="h-5 w-5 text-white" />
-            </div>
+          <div className="flex items-center gap-2.5 cursor-pointer" onClick={() => setActiveTab("home")}>
+            <RRProLogo className="h-10 w-10 flex-shrink-0" theme="light" />
             <div>
               <span className="font-display font-bold text-lg tracking-tight bg-gradient-to-r from-slate-900 to-slate-700 bg-clip-text text-transparent">
                 RRPRO
