@@ -5,7 +5,7 @@ export const SEED_SERVICES: Service[] = [
     id: "s1",
     nama: "Website Company Profile",
     slug: "website-company-profile",
-    harga: 7500000,
+    harga: 1500000,
     icon: "Globe",
     deskripsi: "Website representasi digital profesional dengan desain kustom, performa super cepat, dan optimasi SEO premium untuk meningkatkan kredibilitas perusahaan Anda."
   },
@@ -13,7 +13,7 @@ export const SEED_SERVICES: Service[] = [
     id: "s2",
     nama: "Website E-Commerce (Toko Online)",
     slug: "ecommerce",
-    harga: 15000000,
+    harga: 2500000,
     icon: "ShoppingBag",
     deskripsi: "Platform e-commerce lengkap dengan integrasi payment gateway (Midtrans/Xendit), kalkulator ongkir otomatis (RajaOngkir), dan dashboard manajemen stok."
   },
@@ -21,7 +21,7 @@ export const SEED_SERVICES: Service[] = [
     id: "s3",
     nama: "Aplikasi Web Kustom (ERP & CRM)",
     slug: "custom-web-app",
-    harga: 45000000,
+    harga: 5000000,
     icon: "Cpu",
     deskripsi: "Sistem internal terpadu untuk mengelola CRM, POS, HRM, Inventory, hingga modul akuntansi guna meningkatkan efisiensi operasional bisnis Anda secara digital."
   },
@@ -29,7 +29,7 @@ export const SEED_SERVICES: Service[] = [
     id: "s4",
     nama: "Aplikasi Android & iOS",
     slug: "mobile-app",
-    harga: 55000000,
+    harga: 5000000,
     icon: "Smartphone",
     deskripsi: "Aplikasi mobile performa tinggi berbasis Flutter/React Native, lengkap dengan push notifications, offline-first capabilities, dan UI/UX modern."
   },
@@ -37,7 +37,7 @@ export const SEED_SERVICES: Service[] = [
     id: "s5",
     nama: "AI Automation & Chatbot",
     slug: "ai-automation",
-    harga: 25000000,
+    harga: 5000000,
     icon: "Sparkles",
     deskripsi: "Integrasi kecerdasan buatan (Gemini/OpenAI API) untuk otomatisasi customer service, analisis dokumen otomatis, dan generator proposal cerdas."
   },
@@ -45,7 +45,7 @@ export const SEED_SERVICES: Service[] = [
     id: "s6",
     nama: "UI/UX Design & Prototyping",
     slug: "ui-ux-design",
-    harga: 5000000,
+    harga: 2000000,
     icon: "Palette",
     deskripsi: "Riset pengguna komprehensif, wireframing, high-fidelity UI design, dan prototype interaktif menggunakan Figma sebelum masuk ke tahap pengembangan."
   }
